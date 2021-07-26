@@ -14,3 +14,31 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Averta Light';
+  src: url('/fonts/AvertaCY-Light.woff') format('woff');
+  src: url('/fonts/AvertaCY-Light.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta Regular';
+  src: url('/fonts/AvertaCY-Regular.woff') format('woff');
+  src: url('/fonts/AvertaCY-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta Semibold';
+  src: url('/fonts/AvertaCY-Semibold.woff') format('woff');
+  src: url('/fonts/AvertaCY-Semibold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta Bold';
+  src: url('/fonts/AvertaCY-Bold.woff') format('woff');
+  src: url('/fonts/AvertaCY-Bold.ttf') format('truetype');
+  font-style: normal;
+}
