@@ -1,6 +1,5 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +8,6 @@
 }
 
 .main {
-  padding: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,7 +25,7 @@
 }
 
 .logo {
-  margin: 2rem 0;
+  margin: 0;
 }
 
 .big {
@@ -39,7 +37,12 @@
 .small {
   font-size: 1.2rem;
   text-align: center;
+  width: 600px;
   font-family: 'Averta Light', sans-serif;
+}
+
+.bold {
+  font-family: 'Averta Bold', sans-serif;
 }
 
 @media (max-width: 600px) {

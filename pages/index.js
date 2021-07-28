@@ -14,12 +14,13 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.grid}>
           <div className={styles.logo}>
-            <Image src={'/logo-only.svg'} width={300} height={200} />
+            <Image src={'/logo-final.svg'} width={400} height={300} />
           </div>
           <div className={styles.big}>Website je u izradi.</div>
           <div className={styles.small}>
             Za sve informacije u vezi servisa mozete nam se obratiti na
-            yabooka.rs@gmail.com ili na broj telefona 0677/209-310.
+            <span className={styles.bold}> yabooka.rs@gmail.com</span> ili na
+            broj telefona <span className={styles.bold}>0677/209-310</span>.
           </div>
         </div>
       </main>
