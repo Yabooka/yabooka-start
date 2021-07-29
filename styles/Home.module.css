@@ -32,6 +32,7 @@
   font-size: 4rem;
   font-family: 'Averta Bold', sans-serif;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .small {
@@ -46,8 +47,13 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
+  .grid,
+  .small {
     width: 100%;
     flex-direction: column;
+  }
+  .big,
+  .small {
+    padding: 0 1rem;
   }
 }
