@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className={styles.big}>Website je u izradi.</div>
           <div className={styles.small}>
-            Za sve informacije u vezi servisa mozete nam se obratiti na
+            Za sve informacije u vezi servisa možete nam se obratiti na
             <span className={styles.bold}> yabooka.rs@gmail.com</span> ili na
             broj telefona <span className={styles.bold}>0677/209-310</span>.
           </div>
